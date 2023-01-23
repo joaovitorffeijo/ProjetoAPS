@@ -1,0 +1,36 @@
+.cadastro-login {
+    background-color: #521313;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.cadastro-box {
+    background-color: #fff;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cadastro-box a {
+    color: #521313;
+}
+
+input {
+    outline: 0;
+}
+
+.intro {
+    margin-top: 50px;
+}
+
+.intro p, .intro a {
+    width: 400px;
+    margin-top: 20px;
+    color: #fff;
+}

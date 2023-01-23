@@ -1,0 +1,51 @@
+.dados {
+    background-color: #521313;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 7%;
+}
+
+.sobre {
+    color: #521313;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 7%;
+}
+
+.artigos-evento h1 {
+    background-color: #521313;
+    color: #fff;
+    padding-left: 7%;
+    padding-top: 5px;
+}
+
+.artigos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 7%;
+    margin-bottom: 50px;
+}
+
+.artigo-escrito {
+    background-color: #521313;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 4%;
+}
+
+/*botão baixar pdf*/
+.sobre button {
+    background-color: #521313;
+    color: #fff;
+    padding: 7px;
+    width: 120px;
+    border: none;
+    border-radius: 4%;
+    align-self: center;
+}

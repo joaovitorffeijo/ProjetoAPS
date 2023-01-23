@@ -1,0 +1,72 @@
+/*PESQUISA*/
+
+.pesquisa {
+    background-color: #521313;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-de-busca {
+    background-color: #fff;
+    width: 550px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.caixa-de-busca input {
+    border: none;
+    outline: 0;
+    width: 500px;
+    height: 30px;
+}
+
+.caixa-de-busca img {
+    width: 18px;
+    padding-left: 8px;
+    padding-right: 4px;
+}
+
+.pesquisa p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*ARTIGOS RECENTES*/
+
+.artigos-recentes {
+    color: #521313;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.artigos-recentes p {
+    margin-top: 20px;
+    width: 300px;
+}
+
+/*QUEM SOMOS*/
+
+.quem-somos {
+    color: #521313;
+    display: flex;
+    flex-direction: column;
+}
+
+.quem-somos h1 {
+    background-color: #521313;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.quem-somos p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 900px;
+}
