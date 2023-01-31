@@ -1,5 +1,5 @@
 <?php
-class Cadastrador{
+class Cadastrador extends Usuario{
 	
 }
 ?>
