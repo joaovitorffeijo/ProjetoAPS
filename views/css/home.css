@@ -14,6 +14,8 @@
     height: 30px;
     margin-top: 50px;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
 }
 
 .caixa-de-busca input {
@@ -24,9 +26,11 @@
 }
 
 .caixa-de-busca img {
-    width: 18px;
+    width: 22.5px;
     padding-left: 8px;
     padding-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .pesquisa p {
@@ -40,16 +44,37 @@
     color: #521313;
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.artigos-recentes p {
-    margin-top: 20px;
-    width: 300px;
+.titulo {
+    min-width: 27.5%;
+    margin-right: 5%;
 }
+
+.titulo p {
+    margin-top: 20px;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artigo {
+    background-color: #521313;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    min-width: 22%;
+    max-width: 22%;
+    padding: 20px;
+    font-size: smaller;
+} 
 
 /*QUEM SOMOS*/
 

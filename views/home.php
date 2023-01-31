@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
-    <title>Página Inicial</title>
+    <title>Projeto APS</title>
 </head>
 
 <body>
@@ -38,7 +38,26 @@
             <p>Leia os últimos artigos publicados pelos colaboradores dos eventos mais recentes.</p>
         </div>
         <div class="artigos">
-            <p>Nenhum artigo recente</p>
+            <div class="artigo">
+                <h3>Artigo de Teste</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo.</p>
+            </div>
+            <div class="artigo">
+                <h3>Artigo de Teste</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo.</p>
+            </div>
+            <div class="artigo">
+                <h3>Artigo de Teste</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo.</p>
+            </div>
+            <div class="artigo">
+                <h3>Artigo de Teste</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo.</p>
+            </div>
+            <div class="artigo">
+                <h3>Artigo de Teste</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo.</p>
+            </div>
         </div>
     </div>
 
