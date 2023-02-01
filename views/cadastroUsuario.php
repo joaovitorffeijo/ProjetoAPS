@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/cadastro-login.css">
+    <link rel="stylesheet" href="./css/cadastroUsuario.css">
     <title>Cadastro - APS</title>
 </head>
 
@@ -22,11 +22,11 @@
         </nav>
     </header>
 
-    <div class="cadastro-login">
+    <div class="cadastro">
         <div class="intro">
             <h1>FAÇA SEU CADASTRO</h1>
-            <p>Quer cadastrar seu próprio evento ou ser um colaborador? Faça seu cadastro aqui.</p>
-            <p>Já tem uma conta? Faça <a href="./login.html">login</a></p>
+            <p>Deseja cadastrar eventos e artigos seus ou de terceiros? Faça seu cadastro!</p>
+            <p>Já tem uma conta? Faça <a href="./login.html">login</a>.</p>
         </div>
 
         <div class="cadastro-box">
@@ -46,14 +46,12 @@
                 <input type="password" id="confirma"><br>
                 <label for="tel">Telefone</label><br>
                 <input type="text" id="tel"><br>
-                <label for="lattes">Link do lattes</label><br>
+                <label for="lattes">Link do Lattes</label><br>
                 <input type="text" id="lattes"><br>
-                <label for="formacao">Formação</label><br>
-                <input type="text" id="formacao"><br>
                 <label for="inst">Instituição</label><br>
                 <input type="text" id="inst"><br>
-                <label for="bio">Biografia</label><br>
-                <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+                <label for="formacao">Formação</label><br>
+                <textarea name="formacao" id="formacao" cols="30" rows="5"></textarea><br>
                 <input type="submit">
             </form>
         </div>

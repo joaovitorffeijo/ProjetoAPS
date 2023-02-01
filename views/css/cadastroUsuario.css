@@ -1,4 +1,4 @@
-.cadastro-login {
+.cadastro {
     background-color: #521313;
     color: #fff;
     display: flex;
@@ -6,23 +6,6 @@
     gap: 80px;
     justify-content: center;
     margin-bottom: 50px;
-}
-
-.cadastro-box {
-    background-color: #fff;
-    color: #000;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.cadastro-box a {
-    color: #521313;
-}
-
-input {
-    outline: 0;
 }
 
 .intro {
@@ -33,4 +16,29 @@ input {
     width: 400px;
     margin-top: 20px;
     color: #fff;
+}
+
+.cadastro-box {
+    background-color: #fff;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex; 
+}
+
+input[type=text]{
+    outline: 0;
+    width: 262px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background-color: #521313;
+    color: #fff;
+    padding: 7px;
+    width: 120px;
+    border: none;
+    border-radius: 4%;
 }
