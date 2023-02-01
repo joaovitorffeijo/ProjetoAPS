@@ -27,9 +27,27 @@
             <img src="./img/lupa.png" alt="lupa">
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
-
-        <h1>ENCONTRE SEU EVENTO</h1>
-        <p>anos de evento</p>
+        <h1>SELECIONE O ANO DO SEU EVENTO</h1>
+        <div class="anos">
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+            <a><p class="ano">2022</p></a>
+        </div>
     </div>
 
     <div class="artigos-recentes">
@@ -68,6 +86,7 @@
 
     <footer>
         <p>© UFRRJ 2022. All Rights Reserved.</p>
+        <img src="./img/rural_logo_branco.png" alt="logo-rural">
     </footer>
     
 </body>

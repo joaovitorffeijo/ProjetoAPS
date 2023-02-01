@@ -33,9 +33,18 @@
     margin-bottom: 4px;
 }
 
-.pesquisa p {
-    margin-top: 20px;
-    margin-bottom: 50px;
+.anos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.ano {
+    margin: 20px;
 }
 
 /*ARTIGOS RECENTES*/
@@ -80,18 +89,30 @@
 
 .quem-somos {
     color: #521313;
-    display: flex;
-    flex-direction: column;
 }
 
 .quem-somos h1 {
     background-color: #521313;
     color: #fff;
     padding-top: 5px;
+    padding-left: 10%
+}
+
+.quem-somos h1::before {
+    margin-right: 5px;
+    content: "";
+    display: block;
+    height: 26px;
+    width: 3px;
+    background: #ffffff;
+    margin-bottom: -28px;
+    margin-left: -10px;
 }
 
 .quem-somos p {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
 }
