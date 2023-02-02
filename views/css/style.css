@@ -91,6 +91,56 @@ header {
     color: #6b1d1d;
 }
 
+
+/*PESQUISA ANOS*/
+
+.pesquisa {
+    background-color: #521313;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-de-busca {
+    background-color: #fff;
+    width: 550px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa-de-busca input {
+    border: none;
+    outline: 0;
+    width: 500px;
+    height: 30px;
+}
+
+.caixa-de-busca img {
+    width: 22.5px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.anos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.ano {
+    margin: 20px;
+}
+
 /*Footer
 
 Obs.: Não consegui alinhar o footer com flexbox pra deixar responsivo. 
