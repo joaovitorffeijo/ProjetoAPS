@@ -67,13 +67,20 @@ header {
     width: 175px;
     padding-left: 100px;
 }
-  
+/* Modifiquei o gap e padding-right em .navlist para 50px, 
+pra adicionar Eventos e Artigos na Navbar nas telas:
+1-Eventos.php
+2-Eventos-Cad.php
+3-Artigos.php
+4-Artigos-Cad.php
+***Lembrar de avisar e depois adicionar Enventos e Artigos nas outras telas***
+Ass.: Paulo Victor */
 .navlist {
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 80px;
-    padding-right: 110px;
+    gap: 50px;
+    padding-right: 50px;
 }
   
 .navlist a {
@@ -141,16 +148,90 @@ header {
     margin: 20px;
 }
 
+/* 
+1-Resolvi adicionar os filtros e listas aqui pq também são usados em várias telas.
+2-Atualizei os nomes das classes pra nomes mais genéricos pras várias telas.
+Ass.: Paulo*/
+
+/* FILTROS E LISTAS */
+
+.filtro {
+    color: #521313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:left;
+}
+
+.titulo-filtro {
+    font-size: large;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.lista-filtro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: auto;
+    width: 100%;
+}
+
+.lista {
+    margin: 0;
+    border-bottom: 2px solid #521313;
+    padding: 10px;
+    padding-left: 5px;
+}
+
+.pagina-lista {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    align-items: center;
+}
+
+/* Não consegui fazer o ponto embaixo dos números, deixei uma barra msm. 
+Ass.: Paulo Victor*/
+.numero-pagina {
+    margin: 0 5px;
+    padding: 0 5px;
+    border-bottom: 3px solid #521313;
+}
+
+.guia {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 /*Footer
 
 Obs.: Não consegui alinhar o footer com flexbox pra deixar responsivo. 
 Ass.: João. */
+
+/* Obs.: Dei uma melhorada no Footer:
+1- Mexi na proporção do logo da rural, pq tava diferente do original,
+2- Mexi no flexbox pra alinhar o footer, agora os dois elementos estão
+ mantendo o alinhamento conforme aumenta ou diminui a janela.
+3- O fato de o "© UFRRJ 2022. All Rights Reserved." quebrar de linha 
+me incomoda, mas não consegui resolver, é a vida rs.
+Ass.: Paulo */
+
 
 footer {
     background-color: #521313;
     color: #fff;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     min-height: 10vh;
     gap: 5px;
     padding-top: 20px;
@@ -162,6 +243,7 @@ footer p {
 
 footer img {
     margin-left: 10%;
-    width: 150px;
-    height: 30px;
+    margin-right: 5%;
+    width: 273px;
+    height: 44px;
 }
