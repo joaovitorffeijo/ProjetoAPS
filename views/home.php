@@ -28,25 +28,25 @@
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
         <h1>SELECIONE O ANO DO SEU EVENTO</h1>
-        <div class="anos">
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
+        <div class="filtros">
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
         </div>
     </div>
 

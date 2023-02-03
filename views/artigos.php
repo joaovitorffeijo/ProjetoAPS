@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/busca.css">
     <title>Artigos</title>
 </head>
 <body>
@@ -27,27 +28,27 @@
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
         <h1>ENCONTRE O ARTIGO</h1>
-        <div class="anos">
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
-            <a><p class="ano">2022</p></a>
+        <div class="filtros">
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2022</p></a>
         </div>
     </div>
 
-    <div class="filtro">
+    <div class="box-filtro">
         <div class="titulo-filtro">
             <H3>Filtro de pesquisa '2022'</H3>
         </div>

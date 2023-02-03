@@ -1,0 +1,141 @@
+/*PESQUISA ANO-LETRA*/
+
+.pesquisa {
+    background-color: #521313;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-de-busca {
+    background-color: #fff;
+    width: 550px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa-de-busca input {
+    border: none;
+    outline: 0;
+    width: 500px;
+    height: 30px;
+}
+
+.caixa-de-busca img {
+    width: 22.5px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.filtros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.filtro {
+    margin: 20px;
+}
+
+/* BOTÃO ADICIONAR */
+.box-adicionar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.adicionar {
+    width: 250px;
+    height: 50px;
+    background: #521313;
+    color: #fff;
+    font-size: small;
+    display: flex;
+    padding: 0 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adicionar img {
+    margin-bottom: 5px;
+}
+
+
+
+/* 
+1-Resolvi adicionar os filtros e listas aqui pq também são usados em várias telas.
+2-Atualizei os nomes das classes pra nomes mais genéricos pras várias telas.
+Ass.: Paulo*/
+
+/* FILTROS E LISTAS */
+
+.box-filtro {
+    color: #521313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:left;
+}
+
+.titulo-filtro {
+    font-size: large;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.lista-filtro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.lista {
+    margin: 0;
+    border-bottom: 2px solid #521313;
+    padding: 10px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina-lista {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    align-items: center;
+}
+
+/* Não consegui fazer o ponto embaixo dos números, deixei uma barra msm. 
+Ass.: Paulo Victor*/
+.numero-pagina {
+    margin: 0 5px;
+    padding: 0 5px;
+    border-bottom: 3px solid #521313;
+    font-weight: bold;
+}
+
+.guia {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
