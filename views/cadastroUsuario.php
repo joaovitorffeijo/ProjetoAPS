@@ -50,9 +50,9 @@
                 <input type="text" id="lattes"><br>
                 <label for="inst">Instituição</label><br>
                 <input type="text" id="inst"><br>
-                <label for="formacao">Formação</label><br>
-                <textarea name="formacao" id="formacao" cols="30" rows="5"></textarea><br>
-                <input type="submit">
+                <label for="bio">Biografia</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+                <input type="submit" class="botao-enviar">
             </form>
         </div>
         
