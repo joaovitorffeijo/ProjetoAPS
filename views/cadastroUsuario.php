@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/cadastroUsuario.css">
+    <link rel="stylesheet" href="./css/cadastro-login.css">
     <title>Cadastro - APS</title>
 </head>
 
@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <div class="cadastro">
+    <div class="cadastro-login">
         <div class="intro">
             <h1>FAÇA SEU CADASTRO</h1>
             <p>Deseja cadastrar eventos e artigos seus ou de terceiros? Faça seu cadastro!</p>
