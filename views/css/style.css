@@ -67,14 +67,7 @@ header {
     width: 175px;
     padding-left: 100px;
 }
-/* Modifiquei o gap e padding-right em .navlist para 50px, 
-pra adicionar Eventos e Artigos na Navbar nas telas:
-1-Eventos.php
-2-Eventos-Cad.php
-3-Artigos.php
-4-Artigos-Cad.php
-***Lembrar de avisar e depois adicionar Enventos e Artigos nas outras telas***
-Ass.: Paulo Victor */
+
 .navlist {
     list-style: none;
     display: flex;
@@ -238,7 +231,8 @@ footer {
 }
 
 footer p {
-    margin-left: 39%;
+    /*margin-left: 39%*/
+    /*tirei a margem pq estava deixando o footer torto -Lorena*/
 }
 
 footer img {

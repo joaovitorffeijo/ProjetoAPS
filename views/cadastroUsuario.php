@@ -15,7 +15,8 @@
         <img src="" alt="logo" class="logo">
         <nav class="menu-nav">
             <ul class="navlist">
-                <li><a href="#QUEM SOMOS">Quem Somos</a></li>
+                <li><a href="">Eventos</a></li>
+                <li><a href="">Artigos</a></li>
                 <li><a href="./colaboradores">Colaboradores</a></li>
                 <li><img src="./img/user-128.png" alt="user"><a href="./login.html">Login |</a><a href="./cadastro.html"> Cadastre-se</a></li>
             </ul>

@@ -63,3 +63,10 @@ input {
     cursor: pointer;
     background-color: #6b1d1d;
 }
+
+/*login do evento*/
+.nomeEvento {
+    font-size: 20px;
+    color: #521313;
+    text-align: center;
+}
