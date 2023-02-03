@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/cadastroUsuario.css">
+    <link rel="stylesheet" href="./css/cadastro-login.css">
     <title>Cadastro - APS</title>
 </head>
 
@@ -15,14 +15,15 @@
         <img src="" alt="logo" class="logo">
         <nav class="menu-nav">
             <ul class="navlist">
-                <li><a href="#QUEM SOMOS">Quem Somos</a></li>
+                <li><a href="">Eventos</a></li>
+                <li><a href="">Artigos</a></li>
                 <li><a href="./colaboradores">Colaboradores</a></li>
                 <li><img src="./img/user-128.png" alt="user"><a href="./login.html">Login |</a><a href="./cadastro.html"> Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="cadastro">
+    <div class="cadastro-login">
         <div class="intro">
             <h1>FAÇA SEU CADASTRO</h1>
             <p>Deseja cadastrar eventos e artigos seus ou de terceiros? Faça seu cadastro!</p>
@@ -50,9 +51,9 @@
                 <input type="text" id="lattes"><br>
                 <label for="inst">Instituição</label><br>
                 <input type="text" id="inst"><br>
-                <label for="formacao">Formação</label><br>
-                <textarea name="formacao" id="formacao" cols="30" rows="5"></textarea><br>
-                <input type="submit">
+                <label for="bio">Biografia</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br>
+                <input type="submit" class="botao-enviar">
             </form>
         </div>
         

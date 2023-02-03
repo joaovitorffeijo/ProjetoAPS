@@ -15,7 +15,8 @@
         <img src="" alt="logo" class="logo">
         <nav class="menu-nav">
             <ul class="navlist">
-                <li><a href="#QUEM SOMOS">Quem Somos</a></li>
+                <li><a href="">Eventos</a></li>
+                <li><a href="">Artigos</a></li>
                 <li><a href="./colaboradores">Colaboradores</a></li>
                 <li><img src="./img/user-128.png" alt="user"><a href="./login.html">Login |</a><a href="./cadastro.html"> Cadastre-se</a></li>
             </ul>
@@ -35,9 +36,14 @@
     </div>
 
     <div class="sobre">
+        <h1>RESUMO</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo. Curabitur ac nisl sollicitudin, consectetur dolor et, mollis ante. Vivamus tristique ultricies pellentesque. Aenean luctus mattis turpis quis malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur semper sagittis sapien ut iaculis. Cras scelerisque ante varius semper molestie.</p>
+    </div>
+
+    <div class="sobre">
         <h1>ABSTRACT</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo. Curabitur ac nisl sollicitudin, consectetur dolor et, mollis ante. Vivamus tristique ultricies pellentesque. Aenean luctus mattis turpis quis malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur semper sagittis sapien ut iaculis. Cras scelerisque ante varius semper molestie.</p>
-        <button>Baixar PDF</button>
+        <br><button>Baixar PDF</button><br>
     </div>
 
     <footer>
