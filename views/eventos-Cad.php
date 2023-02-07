@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/busca.css">
+    <link rel="stylesheet" href="./css/principais.css">
     <title>Eventos-cadastro</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
             <img src="./img/lupa.png" alt="lupa">
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
-        <h1>ENCONTRE O ARTIGO</h1>
+        <h1>ENCONTRE O EVENTO</h1>
         <div class="filtros">
             <a><p class="filtro">2022</p></a>
             <a><p class="filtro">2022</p></a>
@@ -45,6 +45,13 @@
             <a><p class="filtro">2022</p></a>
             <a><p class="filtro">2022</p></a>
             <a><p class="filtro">2022</p></a>
+        </div>
+    </div>
+
+    <div class="box-adicionar">
+        <div class="adicionar">
+            <h2>Adicionar nova pessoa</h2>
+            <img src="./img/plus-white-28.png" alt="adicionar">
         </div>
     </div>
 

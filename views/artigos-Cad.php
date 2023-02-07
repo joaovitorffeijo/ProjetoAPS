@@ -48,6 +48,13 @@
         </div>
     </div>
 
+    <div class="box-adicionar">
+        <div class="adicionar">
+            <h2>Adicionar nova pessoa</h2>
+            <img src="./img/plus-white-28.png" alt="adicionar">
+        </div>
+    </div>
+
     <div class="box-filtro">
         <div class="titulo-filtro">
             <H3>Filtro de pesquisa '2022'</H3>

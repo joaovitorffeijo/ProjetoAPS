@@ -1,3 +1,5 @@
+/*Dados*/
+
 .dados {
     background-color: #521313;
     color: #fff;
@@ -19,6 +21,8 @@
     margin-left: -10px;
 }
 
+/*Sobre*/
+
 .sobre {
     color: #521313;
     display: flex;
@@ -38,14 +42,16 @@
     margin-left: -10px;
 }
 
-.artigosDoEvento h1 {
+/*Artigos*/
+
+.artigosMostrados h1 {
     background-color: #521313;
     color: #fff;
     padding-left: 7%;
     padding-top: 5px;
 }
 
-.artigosDoEvento {
+.artigosMostrados {
     margin-top: 30px;
 }
 
@@ -67,6 +73,7 @@
 }
 
 /*botão baixar pdf*/
+
 .sobre button {
     background-color: #521313;
     color: #fff;
@@ -81,3 +88,5 @@
     cursor: pointer;
     background-color: #6b1d1d;
 }
+
+/*Evento dos colaboradores*/

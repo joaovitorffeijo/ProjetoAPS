@@ -1,4 +1,4 @@
-/*PESQUISA ANO-LETRA*/
+/*PESQUISA*/
 
 .pesquisa {
     background-color: #521313;
@@ -13,7 +13,7 @@
     width: 550px;
     height: 30px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
 }
@@ -46,37 +46,6 @@
 .filtro {
     margin: 20px;
 }
-
-/* BOTÃO ADICIONAR */
-.box-adicionar {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.adicionar {
-    width: 250px;
-    height: 50px;
-    background: #521313;
-    color: #fff;
-    font-size: small;
-    display: flex;
-    padding: 0 10px;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.adicionar img {
-    margin-bottom: 5px;
-}
-
-
-
-/* 
-1-Resolvi adicionar os filtros e listas aqui pq também são usados em várias telas.
-2-Atualizei os nomes das classes pra nomes mais genéricos pras várias telas.
-Ass.: Paulo*/
 
 /* FILTROS E LISTAS */
 
@@ -117,6 +86,8 @@ Ass.: Paulo*/
     justify-content: space-between;
 }
 
+/*Guia*/
+
 .pagina-lista {
     margin-top: 60px;
     display: flex;
@@ -125,8 +96,6 @@ Ass.: Paulo*/
     align-items: center;
 }
 
-/* Não consegui fazer o ponto embaixo dos números, deixei uma barra msm. 
-Ass.: Paulo Victor*/
 .numero-pagina {
     margin: 0 5px;
     padding: 0 5px;
@@ -139,3 +108,30 @@ Ass.: Paulo Victor*/
     font-size: 14px;
     font-weight: bold;
 }
+
+/* Páginas de usuário cad*/
+
+/* BOTÃO ADICIONAR */
+.box-adicionar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.adicionar {
+    width: 250px;
+    height: 50px;
+    background: #521313;
+    color: #fff;
+    font-size: small;
+    display: flex;
+    padding: 0 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adicionar img {
+    margin-bottom: 5px;
+}
+

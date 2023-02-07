@@ -96,15 +96,6 @@ header {
 Obs.: Não consegui alinhar o footer com flexbox pra deixar responsivo. 
 Ass.: João. */
 
-/* Obs.: Dei uma melhorada no Footer:
-1- Mexi na proporção do logo da rural, pq tava diferente do original,
-2- Mexi no flexbox pra alinhar o footer, agora os dois elementos estão
- mantendo o alinhamento conforme aumenta ou diminui a janela.
-3- O fato de o "© UFRRJ 2022. All Rights Reserved." quebrar de linha 
-me incomoda, mas não consegui resolver, é a vida rs.
-Ass.: Paulo */
-
-
 footer {
     background-color: #521313;
     color: #fff;
