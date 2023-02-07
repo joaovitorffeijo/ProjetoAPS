@@ -29,9 +29,30 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo. Curabitur ac nisl sollicitudin, consectetur dolor et, mollis ante. Vivamus tristique ultricies pellentesque. Aenean luctus mattis turpis quis malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur semper sagittis sapien ut iaculis. Cras scelerisque ante varius semper molestie.</p>
     </div>
 
-    <div class="artigosDoEvento">
-        <h1>ARTIGOS</h1>
+    <div class="artigosMostrados">
+        <div class="tituloPesquisa">
+            <h1>ARTIGOS</h1>
+            <div class="caixa-de-busca">
+                <img src="./img/lupa.png" alt="lupa">
+                <input type="text" id="busca" placeholder="Pesquise pelo nome">
+            </div>
+        </div>
         <div class="artigos">
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>

@@ -22,7 +22,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    padding-right: 50px;
+    padding-right: 100px;
 }
   
 .navlist a {

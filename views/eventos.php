@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/busca.css">
+    <link rel="stylesheet" href="./css/principais.css">
     <title>Eventos</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
             <img src="./img/lupa.png" alt="lupa">
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
-        <h1>ENCONTRE O ARTIGO</h1>
+        <h1>ENCONTRE O EVENTO</h1>
         <div class="filtros">
             <a><p class="filtro">2022</p></a>
             <a><p class="filtro">2022</p></a>
@@ -84,9 +84,10 @@
 
     </div>
 
-    <div style="background-color: #521313;">
-        <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
-    </div>
+    <footer>
+        <p>© UFRRJ 2022. All Rights Reserved.</p>
+        <img src="./img/rural_logo_branco.png" alt="logo-rural">
+    </footer>
     
 </body>
 </html>

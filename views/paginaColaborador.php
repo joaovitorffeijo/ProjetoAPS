@@ -65,6 +65,26 @@
                 <p><b>Evento por:</b></p>
                 <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
             </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Evento por:</b></p>
+                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+            </div>
         </div>
     </div>
 

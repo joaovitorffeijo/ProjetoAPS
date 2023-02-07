@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 50px 7%;
+    padding: 80px 7%;
     margin-bottom: 30px;
 }
 
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 30px 7%;
+    padding: 50px 7%;
 }
 
 .sobre h1::before {
@@ -52,24 +52,31 @@
 }
 
 .artigosMostrados {
-    margin-top: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .artigos {
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
-    flex-direction: row;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 20.5px;
     margin-left: 7%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .artigo-escrito {
     background-color: #521313;
-    color: #fff;
-    width: 200px;
-    padding: 10px;
-    border-radius: 4%;
+    border-radius: 10px;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    min-width: 150px;
+    max-width: 150px;
+    height: 180px;
+    padding: 20px;
+    font-size: smaller;
 }
 
 /*botão baixar pdf*/
@@ -90,3 +97,65 @@
 }
 
 /*Evento dos colaboradores*/
+
+
+/*Caixa de pesquisa de artigos*/
+
+.tituloPesquisa {
+    display: flex;
+    flex-direction: row;
+    background-color: #521313;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.caixa-de-busca {
+    background-color: #fff;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-right: 7%;
+}
+
+.caixa-de-busca input {
+    border: none;
+    outline: 0;
+    width: 250px;
+    height: 25px;
+}
+
+.caixa-de-busca img {
+    width: 22.5px;
+    padding-left: 8px;
+    padding-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/*Usuário Cad*/
+
+
+.botao-adicionar button {
+    color: #fff;
+    background-color: #521313;
+    border: none;
+    border-radius: 4%;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.botao-adicionar button:hover {
+    background-color: #6b1d1d;
+    cursor: pointer;
+}
+
+.botao-adicionar button img {
+    width: 20px;
+}
