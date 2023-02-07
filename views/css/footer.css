@@ -1,0 +1,22 @@
+footer {
+    background-color: #521313;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    min-height: 10vh;
+    gap: 5px;
+    justify-content: center;
+}
+
+.espaco {
+    width: 150px;
+    height: 30px;
+    margin-right: 10%;
+}
+
+footer img {
+    margin-left: 10%;
+    margin-top: 8px;
+    width: 150px;
+    height: 30px;
+}

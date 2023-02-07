@@ -9,19 +9,10 @@
     <title>Artigos-cadastro</title>
 </head>
 <body>
-    <header>
-            <img src="" alt="logo" class="logo">
-            <nav class="menu-nav">
-                <ul class="navlist">
-                    <li><a href="./eventos.php">Eventos</a></li>
-                    <li><a href="./artigos.php">Artigos</a></li>
-                    <li><a href="#QUEM SOMOS">Quem Somos</a></li>
-                    <li><a href="./colaboradores">Colaboradores</a></li>
-                    <li><img src="./img/user-128.png" alt="user"><a href="./config.html">Olá, Usuário!</a></li>
-                </ul>
-            </nav>
-    </header>
-
+    <div style="position:sticky; top: 0; margin-bottom: -120px;">
+            <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+    </div>
+    
     <div class="pesquisa">
         <div class="caixa-de-busca">
             <img src="./img/lupa.png" alt="lupa">
@@ -100,10 +91,8 @@
 
     </div>
 
-    <footer>
-        <p>© UFRRJ 2022. All Rights Reserved.</p>
-        <img src="./img/rural_logo_branco.png" alt="logo-rural">
-    </footer>
-    
+    <div style="background-color: #521313;">
+        <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
+    </div>
 </body>
 </html>
