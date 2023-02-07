@@ -84,10 +84,9 @@
 
     </div>
 
-    <footer>
-        <p>© UFRRJ 2022. All Rights Reserved.</p>
-        <img src="./img/rural_logo_branco.png" alt="logo-rural">
-    </footer>
+    <div style="background-color: #521313;">
+        <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
+    </div>
     
 </body>
 </html>
