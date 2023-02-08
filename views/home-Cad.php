@@ -10,7 +10,7 @@
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
         <iframe  src="header-cad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
-    <div style="background-color: #521313;">
+    <div style="background-color: #521313; bottom: 0;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
 </body>

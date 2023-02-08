@@ -77,7 +77,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget, pharetra orci. Aenean et felis eget lacus tempus fermentum id a leo. Curabitur ac nisl sollicitudin, consectetur dolor et, mollis ante. Vivamus tristique ultricies pellentesque. Aenean luctus mattis turpis quis malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur semper sagittis sapien ut iaculis. Cras scelerisque ante varius semper molestie.</p>
     </div>
 
-    <div style="background-color: #521313;">
+    <div style="background-color: #521313; bottom: 0;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
 </body>
