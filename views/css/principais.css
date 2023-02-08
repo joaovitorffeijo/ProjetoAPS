@@ -10,7 +10,7 @@
 
 .caixa-de-busca {
     background-color: #fff;
-    width: 562px;
+    width: 560px;
     height: 25px;
     margin-top: 44px;
     margin-bottom: 35px;
@@ -62,7 +62,7 @@
     justify-content: center;
     width: 460px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .filtro-letra {
@@ -96,7 +96,7 @@
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 560px;
 }
 
 .lista h3 {
@@ -125,16 +125,17 @@
 
 /*Guia*/
 
-.pagina-lista {
+.box-guia {
     margin-top: 50px;
+    width: 310px;
     display: flex;
     flex-direction: row;
     font-size: 16px;
     align-items: center;
-    margin-left: 12%;
+    justify-content: flex-end;
 }
 
-.box-numero-pagina {
+.box-pagina{
     display: flex;
 }
 

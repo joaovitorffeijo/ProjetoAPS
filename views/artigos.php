@@ -76,13 +76,15 @@
                 <h3>Artigo 8</h3>
             </div>
         </div>
-        <div class="pagina-lista">
+        <div class="box-guia">
             <p class="guia">Voltar</p>
-            <p class="numero-pagina">1</p>
-            <p class="numero-pagina">2</p>
-            <p class="numero-pagina">3</p>
-            <p class="numero-pagina">4</p>
-            <p class="numero-pagina">5</p>
+            <div class="box-pagina">
+                <p class="numero-pagina">1</p>
+                <p class="numero-pagina">2</p>
+                <p class="numero-pagina">3</p>
+                <p class="numero-pagina">4</p>
+                <p class="numero-pagina">5</p>
+            </div>
             <p class="guia">Próxima pagina</p>
         </div>
 

@@ -19,7 +19,7 @@
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
         <h1>BUSQUE PELA INICIAL</h1>
-        <div class="filtros">
+        <div class="filtros-letra">
             <a><p class="filtro">A</p></a>
             <a><p class="filtro">B</p></a>
             <a><p class="filtro">C</p></a>
@@ -81,13 +81,15 @@
                 <h3>Pessoa 8</h3>
             </div>
         </div>
-        <div class="pagina-lista">
+        <div class="box-guia">
             <p class="guia">Voltar</p>
-            <p class="numero-pagina">1</p>
-            <p class="numero-pagina">2</p>
-            <p class="numero-pagina">3</p>
-            <p class="numero-pagina">4</p>
-            <p class="numero-pagina">5</p>
+            <div class="box-pagina">
+                <p class="numero-pagina">1</p>
+                <p class="numero-pagina">2</p>
+                <p class="numero-pagina">3</p>
+                <p class="numero-pagina">4</p>
+                <p class="numero-pagina">5</p>
+            </div>
             <p class="guia">Próxima pagina</p>
         </div>
 

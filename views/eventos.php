@@ -76,9 +76,9 @@
                 <h3>Eventos 8</h3>
             </div>
         </div>
-        <div class="pagina-lista">
+        <div class="box-guia">
             <p class="guia">Voltar</p>
-            <div class="box-numero-pagina">
+            <div class="box-pagina">
                 <p class="numero-pagina">1</p>
                 <p class="numero-pagina">2</p>
                 <p class="numero-pagina">3</p>
