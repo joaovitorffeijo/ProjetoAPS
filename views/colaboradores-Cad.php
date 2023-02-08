@@ -19,7 +19,7 @@
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
         <h1>BUSQUE PELA INICIAL</h1>
-        <div class="filtros">
+        <div class="filtros-letra">
             <a><p class="filtro">A</p></a>
             <a><p class="filtro">B</p></a>
             <a><p class="filtro">C</p></a>
@@ -48,10 +48,10 @@
             <a><p class="filtro">Z</p></a>
         </div>
     </div>
-    <div class="box-adicionar">
+    <div class="box-botao">
         <div class="adicionar">
             <h2>Adicionar nova pessoa</h2>
-            <img src="./img/plus-white-28.png" alt="adicionar">
+            <img src="./img/plus.png" alt="adicionar pessoa">
         </div>
     </div>
 
@@ -60,52 +60,70 @@
             <H3>Filtro de pesquisa 'P'</H3>
         </div>
         <div class="lista-filtro">
-                <div class="lista">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 1</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 2</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 3</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 4</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 5</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 6</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 7</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
-                </div>
-                <div class="lista">
-                    <h3>Pessoa 8</h3>
-                    <img src="./img/edit-28.png" alt="adicionar">
+            <div class="lista">
+            </div>
+            <div class="lista">
+                <h3>Pessoa 1</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
                 </div>
             </div>
-            <div class="pagina-lista">
+            <div class="lista">
+                <h3>Pessoa 2</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                </div>
+            </div>
+            <div class="lista">
+                <h3>Pessoa 3</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                </div>
+            </div>
+            <div class="lista">
+                <h3>Pessoa 4</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                </div>
+            </div>
+            <div class="lista">
+                <h3>Pessoa 5</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                </div>
+            </div>
+            <div class="lista">
+                <h3>Pessoa 6</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    
+                </div>
+            </div>
+            <div class="lista">
+                <h3>Pessoa 7</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                </div>
+            </div>
+            <div class="lista">
+                <h3>Pessoa 8</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                </div>
+            </div>
+        </div>
+        <div class="pagina-lista">
             <p class="guia">Voltar</p>
-            <p class="numero-pagina">1</p>
-            <p class="numero-pagina">2</p>
-            <p class="numero-pagina">3</p>
-            <p class="numero-pagina">4</p>
-            <p class="numero-pagina">5</p>
+            <div class="box-numero-pagina">
+                <p class="numero-pagina">1</p>
+                <p class="numero-pagina">2</p>
+                <p class="numero-pagina">3</p>
+                <p class="numero-pagina">4</p>
+                <p class="numero-pagina">5</p>
+            </div>
             <p class="guia">Próxima pagina</p>
         </div>
     </div>
-
     <div style="background-color: #521313;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>

@@ -44,10 +44,10 @@
         </div>
     </div>
 
-    <div class="box-adicionar">
-        <div class="adicionar">
+    <div class="box-botao">
+        <div class="criar">
             <h2>Criar novo evento</h2>
-            <img src="./img/plus-white-28.png" alt="adicionar">
+            <img src="./img/plus.png" alt="criar evento">
         </div>
     </div>
 
@@ -60,27 +60,60 @@
             </div>
             <div class="lista">
                 <h3>Evento 1</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 2</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 3</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 4</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 5</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 6</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 7</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
                 <h3>Evento 8</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
         </div>
         <div class="pagina-lista">
@@ -94,13 +127,9 @@
             </div>
             <p class="guia">Próxima pagina</p>
         </div>
-
-
     </div>
-
     <div style="background-color: #521313;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
-    
 </body>
 </html>
