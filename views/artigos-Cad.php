@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="box-adicionar">
+    <div class="box-botao">
         <div class="adicionar">
             <h2>Adicionar nova pessoa</h2>
             <img src="./img/plus-white-28.png" alt="adicionar">
