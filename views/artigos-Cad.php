@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/busca.css">
+    <link rel="stylesheet" href="./css/principais.css">
     <title>Artigos-cadastro</title>
 </head>
 <body>
@@ -96,7 +96,7 @@
 
     </div>
 
-    <div style="background-color: #521313;">
+    <div style="background-color: #521313; bottom: 0;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
 </body>
