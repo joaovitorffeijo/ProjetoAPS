@@ -38,6 +38,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 30px;
@@ -65,6 +66,7 @@
 }
 
 .titulo p {
+    margin-left: -6%;
     margin-top: 20px;
 }
 
@@ -89,13 +91,14 @@
 
 .quem-somos {
     color: #521313;
+    width: 100%;
 }
 
 .quem-somos h1 {
     background-color: #521313;
     color: #fff;
     padding-top: 5px;
-    padding-left: 10%
+    padding-left: 11%;
 }
 
 .quem-somos h1::before {
