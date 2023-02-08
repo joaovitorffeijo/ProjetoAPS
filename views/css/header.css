@@ -6,7 +6,7 @@ header {
     top: 0px;
     width: 100%;
     box-shadow: 1px 0px 10px;
-    height: 50px;
+    height: 45px;
     justify-content: space-between;
     background-color: #fff;
     z-index: 1000;
@@ -22,7 +22,13 @@ header {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    padding-right: 100px;
+    padding-right: 50px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navlist li {
+    display: flex;
 }
   
 .navlist a {
@@ -33,7 +39,7 @@ header {
 
 .navlist img {
     width: 16px;
-    height: 15px;
+    height: auto;
 }
 
 .navlist a:hover {

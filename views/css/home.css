@@ -10,10 +10,10 @@
 
 .caixa-de-busca {
     background-color: #fff;
-    width: 550px;
-    height: 30px;
+    width: 575px;
+    height: 25px;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
 }
@@ -21,12 +21,12 @@
 .caixa-de-busca input {
     border: none;
     outline: 0;
-    width: 500px;
-    height: 30px;
+    width: 520px;
+    height: 25px;
 }
 
 .caixa-de-busca img {
-    width: 22.5px;
+    width: 18px;
     padding-left: 8px;
     padding-right: 4px;
     margin-top: 4px;

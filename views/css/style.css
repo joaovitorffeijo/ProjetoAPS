@@ -12,18 +12,19 @@ body {
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 21px;
+    margin-left: -15px;
 }
 
 h1::before {
     margin-right: 5px;
     content: "";
     display: block;
-    height: 26px;
+    height: 24px;
     width: 3px;
     background: #ffffff;
-    margin-bottom: -28px;
-    margin-left: -10px;
+    margin-bottom: -24px;
+    margin-left: -12px;
 }
 
 .titulo h1::before {

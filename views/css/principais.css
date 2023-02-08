@@ -10,10 +10,10 @@
 
 .caixa-de-busca {
     background-color: #fff;
-    width: 550px;
-    height: 30px;
-    margin-top: 50px;
-    margin-bottom: 60px;
+    width: 562px;
+    height: 25px;
+    margin-top: 44px;
+    margin-bottom: 35px;
     display: flex;
     flex-direction: row;
 }
@@ -21,12 +21,12 @@
 .caixa-de-busca input {
     border: none;
     outline: 0;
-    width: 500px;
-    height: 30px;
+    width: 520px;
+    height: 25px;
 }
 
 .caixa-de-busca img {
-    width: 22.5px;
+    width: 18px;
     padding-left: 8px;
     padding-right: 4px;
     margin-top: 4px;
@@ -34,17 +34,24 @@
 }
 
 .filtros {
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 30px;
+    width: 600px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 35px;
 }
 
 .filtro {
-    margin: 20px;
+    margin: 7px 13px;
+}
+
+.filtro a {
+    padding-left: 40px;
 }
 
 /* FILTROS E LISTAS */
@@ -62,15 +69,14 @@
 }
 
 .titulo-filtro {
-    font-size: large;
-    margin-bottom: 25px;
+    font-size: 14px;
     text-align: center;
 }
 
 .lista-filtro {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 21px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -78,9 +84,10 @@
 }
 
 .lista {
-    margin: 0;
+    font-size: 14px;
+    margin: 1px;
     border-bottom: 2px solid #521313;
-    padding: 10px;
+    padding: 6px;
     padding-left: 5px;
     display: flex;
     justify-content: space-between;
@@ -89,11 +96,16 @@
 /*Guia*/
 
 .pagina-lista {
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
-    font-size: large;
+    font-size: 16px;
     align-items: center;
+    margin-left: 12%;
+}
+
+.box-numero-pagina {
+    display: flex;
 }
 
 .numero-pagina {
@@ -113,19 +125,19 @@
 
 /* BOTÃO ADICIONAR */
 .box-adicionar {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
 
 .adicionar {
-    width: 250px;
-    height: 50px;
+    width: 185px;
+    height: 42px;
     background: #521313;
     color: #fff;
     font-size: small;
     display: flex;
-    padding: 0 10px;
+    padding: 0 13px;
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
@@ -133,5 +145,11 @@
 
 .adicionar img {
     margin-bottom: 5px;
+    height: 26px;
+    margin-left: -5px;
+}
+
+.box-adicionar h2{
+    font-size: 17px;
 }
 

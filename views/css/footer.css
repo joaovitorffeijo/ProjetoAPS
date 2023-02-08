@@ -2,21 +2,22 @@ footer {
     background-color: #521313;
     color: #fff;
     width: 100%;
+    padding-top: 5px;
     display: flex;
-    min-height: 15vh;
+    min-height: 20vh;
     gap: 5px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .espaco {
     width: 150px;
     height: 30px;
-    margin-right: 10%;
+    margin-right: 12%;
 }
 
 footer img {
     margin-left: 10%;
     margin-top: 8px;
-    width: 150px;
+    width: auto;
     height: 30px;
 }

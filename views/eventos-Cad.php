@@ -20,28 +20,33 @@
         </div>
         <h1>ENCONTRE O EVENTO</h1>
         <div class="filtros">
+        <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
             <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
             <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
             <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
+            
         </div>
     </div>
 
     <div class="box-adicionar">
         <div class="adicionar">
-            <h2>Adicionar nova pessoa</h2>
+            <h2>Criar novo evento</h2>
             <img src="./img/plus-white-28.png" alt="adicionar">
         </div>
     </div>
@@ -80,11 +85,13 @@
         </div>
         <div class="pagina-lista">
             <p class="guia">Voltar</p>
-            <p class="numero-pagina">1</p>
-            <p class="numero-pagina">2</p>
-            <p class="numero-pagina">3</p>
-            <p class="numero-pagina">4</p>
-            <p class="numero-pagina">5</p>
+            <div class="box-numero-pagina">
+                <p class="numero-pagina">1</p>
+                <p class="numero-pagina">2</p>
+                <p class="numero-pagina">3</p>
+                <p class="numero-pagina">4</p>
+                <p class="numero-pagina">5</p>
+            </div>
             <p class="guia">Próxima pagina</p>
         </div>
 

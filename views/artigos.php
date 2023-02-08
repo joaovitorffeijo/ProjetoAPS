@@ -20,22 +20,27 @@
         </div>
         <h1>ENCONTRE O ARTIGO</h1>
         <div class="filtros">
+        <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
             <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
             <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
             <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2022</p></a>
+            <a><p class="filtro">2021</p></a>
+            <a><p class="filtro">2020</p></a>
+            <a><p class="filtro">2019</p></a>
+            <a><p class="filtro">2018</p></a>
+            
         </div>
     </div>
 
