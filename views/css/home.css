@@ -66,7 +66,6 @@
 }
 
 .titulo p {
-    margin-left: -6%;
     margin-top: 20px;
 }
 
@@ -91,14 +90,13 @@
 
 .quem-somos {
     color: #521313;
-    width: 100%;
 }
 
 .quem-somos h1 {
     background-color: #521313;
     color: #fff;
     padding-top: 5px;
-    padding-left: 11%;
+    padding-left: 10%
 }
 
 .quem-somos h1::before {
