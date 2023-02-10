@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/pag.css">
-    <title>Página do Evento - APS</title>
+    <title>Página do Artigo</title>
 </head>
 
 <body>
@@ -16,7 +16,11 @@
     </div>
 
     <div class="dados">
-        <h1>NOME DO ARTIGO</h1>
+        <div class="tituloCad">
+            <h1>NOME DO ARTIGO</h1>
+            <a href="./cadastroArtigos.php"><img src="./img/edit-white.png" alt="editar"></a>
+            <a href="./"><img src="./img/trash.png" alt="lixeira"></a>
+        </div>
         <div class="dados-menores">
             <p><b>Data:</b></p>
             <p><b>Autores:</b></p>

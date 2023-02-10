@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/pag.css">
-    <title>Página do Evento - APS</title>
+    <title>Página do Artigo</title>
 </head>
 
 <body>
-    <div style="position:sticky; top: 0; margin-bottom: -120px;">
+    <div style="position:sticky; top: 0; margin-bottom: -115px;">
         <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
 

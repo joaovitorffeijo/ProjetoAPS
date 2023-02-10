@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/pag.css">
-    <title>Página do Evento - APS</title>
+    <title>Página do Colaborador</title>
 </head>
 
 <body>
@@ -16,30 +16,35 @@
     </div>
 
     <div class="dados">
-        <h1>NOME DO EVENTO</h1>
+        <h1>NOME DO COLABORADOR</h1>
         <div class="dados-menores">
-            <p><b>Data:</b></p>
-            <p><b>Organizadores:</b></p>
-            <p><b>Palavras-chave:</b></p>
+            <p><b>Formação:</b></p>
+            <p><b>Lattes:</b></p>
         </div>
     </div>
 
-    <div class="box-filtro">
+    <div class="eventosColaborador">
         <h1>EVENTOS ORGANIZADOS</h1>
-        <div class="lista-filtro">
-            <div class="lista">
-            </div>
-            <div class="lista">
-                <h3>Eventos 1</h3>
-            </div>
-            <div class="lista">
-                <h3>Eventos 2</h3>
-            </div>
-            <div class="lista">
-                <h3>Eventos 3</h3>
-            </div>
-            <div class="lista">
-                <h3>Eventos 4</h3>
+        <div class="tabela-eventos">
+            <table>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 1</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 2</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 3</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 4</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 5</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 6</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 7</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento.php"><b>Evento 8</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+            </table>
         </div>
         <div class="pagina-lista">
             <p class="guia">Voltar</p>
@@ -48,42 +53,48 @@
             <p class="numero-pagina">3</p>
             <p class="numero-pagina">4</p>
             <p class="numero-pagina">5</p>
-            <p class="guia">Próxima pagina</p>
+            <p class="guia">Próxima</p>
         </div>
     </div>
 
     <div class="artigosMostrados">
-        <h1>ARTIGOS</h1>
+        <div class="tituloPesquisa">
+            <h1>ARTIGOS</h1>
+            <div class="caixa-de-busca">
+                <img src="./img/lupa.png" alt="lupa">
+                <input type="text" id="busca" placeholder="Pesquise pelo nome">
+            </div>
+        </div>
         <div class="artigos">
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
         </div>
     </div>

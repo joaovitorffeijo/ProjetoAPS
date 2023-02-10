@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/pag.css">
-    <title>Página do Evento - APS</title>
+    <title>Página do Evento</title>
 </head>
 
 <body>
@@ -40,28 +40,28 @@
         <div class="artigos">
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
-                <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
-                <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
-                <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
-                <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
-                <p><b>Evento por:</b></p>
-                <p>Lorem ipsum dolor sit amnet...<a href="">Leia mais</a></p>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
             </div>
         </div>
     </div>
