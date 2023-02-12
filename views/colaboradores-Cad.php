@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/principais.css">
     <title>Colaboradores</title>
 </head>
+
 <body>
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
         <iframe  src="header-cad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
@@ -48,11 +50,9 @@
             <a><p class="filtro">Z</p></a>
         </div>
     </div>
-    <div class="box-botao">
-        <div class="adicionar">
-            <h2>Adicionar nova pessoa</h2>
-            <img src="./img/plus.png" alt="adicionar pessoa">
-        </div>
+    
+    <div class="adicionar">
+        <a href="#"><button >Adiconar<img src="./img/plus.png" alt="adicionar"></button></a>
     </div>
 
     <div class="box-filtro">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,12 +44,9 @@
         </div>
     </div>
 
-    <div class="box-botao">
-        <div class="criar">
-            <h2>Criar novo evento</h2>
-            <img src="./img/plus.png" alt="criar evento">
+    <div class="criar">
+            <a href="#"><button>Adiconar novo artigo<img src="./img/plus.png" alt="adicionar"></button></a>
         </div>
-    </div>
 
     <div class="box-filtro">
         <div class="titulo-filtro">

@@ -10,10 +10,10 @@
 
 .caixa-de-busca {
     background-color: #fff;
-    width: 575px;
+    width: 560px;
     height: 25px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 44px;
+    margin-bottom: 35px;
     display: flex;
     flex-direction: row;
 }
@@ -34,18 +34,39 @@
 }
 
 .filtros {
+    font-size: 14px;
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 30px;
+    width: 600px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .filtro {
-    margin: 20px;
+    margin: 6px 13px;
+}
+
+.filtro a {
+    padding-left: 40px;
+}
+
+.filtros-letra {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 460px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.filtro-letra {
+    margin: 7px 10px;
 }
 
 /*ARTIGOS RECENTES*/
