@@ -3,9 +3,11 @@
     color: #fff;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 200px;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
 
 .cadastro-box {
@@ -17,8 +19,17 @@
     border-radius: 10px;
 }
 
+.cadastro-box input {
+    margin-bottom: 7px;
+}
+
 .cadastro-box a {
     color: #521313;
+}
+
+.cadastro-box p {
+    font-size: 11px;
+    text-align: center;
 }
 
 input {
@@ -33,4 +44,29 @@ input {
     width: 400px;
     margin-top: 20px;
     color: #fff;
+}
+
+/*Botões de Enviar*/
+.botao-enviar {
+    background-color: #521313;
+    width: 100px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 20px auto;
+}
+
+.botao-enviar:hover {
+    cursor: pointer;
+    background-color: #6b1d1d;
+}
+
+/*login do evento*/
+.nomeEvento {
+    font-size: 20px;
+    color: #521313;
+    text-align: center;
 }

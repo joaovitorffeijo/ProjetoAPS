@@ -9,14 +9,13 @@
 </head>
 <body>
     <header>
-        <a href="home.php" target="_parent"><img src="" alt="logo" class="logo"></a>
+        <img src="" alt="logo" class="logo">
         <nav class="menu-nav">
             <ul class="navlist">
                 <li><a href="./eventos.php" target="_parent">Eventos</a></li>
                 <li><a href="./artigos.php" target="_parent">Artigos</a></li>
                 <li><a href="./colaboradores.php" target="_parent">Colaboradores</a></li>
-                <li><img src="./img/user-128.png" alt="user"><a href="./login.php" target="_parent"> Login </a>&nbsp;|&nbsp;<a href="./cadastroUsuario.php" target="_parent">Cadastre-se</a></li>
-            </ul>
+                <li><img src="./img/user-128.png" alt="user"><a href="">Olá, usuário!</a>
         </nav>
     </header>
 </body>

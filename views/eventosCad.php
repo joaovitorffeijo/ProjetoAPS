@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/principais.css">
-    <title>Artigos</title>
+    <title>Eventos</title>
 </head>
 <body>
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
-        <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+        <iframe  src="header-cad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
 
     <div class="pesquisa">
@@ -18,7 +18,7 @@
             <img src="./img/lupa.png" alt="lupa">
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
-        <h1>ENCONTRE O ARTIGO</h1>
+        <h1>ENCONTRE O EVENTO</h1>
         <div class="filtros">
         <a><p class="filtro">2022</p></a>
             <a><p class="filtro">2021</p></a>
@@ -44,6 +44,10 @@
         </div>
     </div>
 
+    <div class="criar">
+            <a href="#"><button>Adiconar novo artigo<img src="./img/plus.png" alt="adicionar"></button></a>
+        </div>
+
     <div class="box-filtro">
         <div class="titulo-filtro">
             <H3>Filtro de pesquisa '2022'</H3>
@@ -52,28 +56,61 @@
             <div class="lista">
             </div>
             <div class="lista">
-                <h3>Artigo 1</h3>
+                <h3>Evento 1</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 2</h3>
+                <h3>Evento 2</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 3</h3>
+                <h3>Evento 3</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 4</h3>
+                <h3>Evento 4</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 5</h3>
+                <h3>Evento 5</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 6</h3>
+                <h3>Evento 6</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 7</h3>
+                <h3>Evento 7</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
             <div class="lista">
-                <h3>Artigo 8</h3>
+                <h3>Evento 8</h3>
+                <div class="icones">
+                    <img src="./img/edit.png" alt="adicionar">
+                    <img src="./img/trash.png" alt="excluir">
+                </div>
             </div>
         </div>
         <div class="box-guia">
@@ -87,8 +124,6 @@
             </div>
             <p class="guia">Próxima pagina</p>
         </div>
-
-
     </div>
 
     <div style="background-color: #521313; bottom: 0;">

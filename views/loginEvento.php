@@ -1,12 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cadastro-login.css">
+    <title>Gerenciar evento</title>
 </head>
+
 <body>
-    
+    <div style="position:sticky; top: 0; margin-bottom: -120px;">
+        <iframe  src="header-cad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+    </div>
+
+    <div class="cadastro-login">
+        <div class="intro">
+            <h1>GERENCIAR EVENTO</h1>
+            <p>Insira o PIN do evento para poder ter acesso a seus dados.</p>
+            <p>Não tem o PIN de acesso desse evento? <a href="">Crie seu próprio evento.</a></p>
+        </div>
+        <div class="cadastro-box">
+            <form action="">
+                <h3 class="nomeEvento">Nome do evento</h3><br>
+                <label for="pin">PIN do evento</label><br>
+                <input type="password" id="pin"><br>
+                <input type="submit" class="botao-enviar">
+            </form>
+        </div>
+    </div>
+
+    <div style="background-color: #521313; bottom: 0;">
+        <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
+    </div>
 </body>
 </html>

@@ -11,12 +11,16 @@
 </head>
 
 <body>
-    <div style="position:sticky; top: 0; margin-bottom: -120px;">
-        <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+    <div style="position:sticky; top: 0; margin-top: -115px;">
+        <iframe  src="header-cad.php" marginwidth="0" marginheight="0px" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
 
     <div class="dados">
-        <h1>NOME DO EVENTO</h1>
+        <div class="tituloCad">
+            <h1>NOME DO EVENTO</h1>
+            <a href="./cadastroArtigos.php"><img src="./img/edit-white.png" alt="editar"></a>
+            <a href="./"><img src="./img/trash.png" alt="lixeira"></a>
+        </div>
         <div class="dados-menores">
             <p><b>Data:</b></p>
             <p><b>Organizadores:</b></p>
@@ -37,37 +41,49 @@
                 <input type="text" id="busca" placeholder="Pesquise pelo nome">
             </div>
         </div>
+        <div class="botao-adicionar">
+            <a href="./cadastroArtigos.php"><button >Adiconar novo artigo<img src="./img/plus.png" alt="adicionar"></button></a>
+        </div>
         <div class="artigos">
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+            </div>
+            <div class="artigo-escrito">
+                <h3>Título do artigo</h3>
+                <p><b>Autor:</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
             </div>
         </div>
     </div>
 
-    <div style="background-color: #521313; bottom: 0;">
+    <div style="background-color: #521313;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
 </body>
-

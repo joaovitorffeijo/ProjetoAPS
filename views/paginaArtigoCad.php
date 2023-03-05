@@ -11,12 +11,16 @@
 </head>
 
 <body>
-    <div style="position:sticky; top: 0; margin-bottom: -115px;">
-        <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+    <div style="position:sticky; top: 0; margin-bottom: -120px;">
+        <iframe  src="header-cad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
 
     <div class="dados">
-        <h1>NOME DO ARTIGO</h1>
+        <div class="tituloCad">
+            <h1>NOME DO ARTIGO</h1>
+            <a href="./cadastroArtigos.php"><img src="./img/edit-white.png" alt="editar"></a>
+            <a href="./"><img src="./img/trash.png" alt="lixeira"></a>
+        </div>
         <div class="dados-menores">
             <p><b>Data:</b></p>
             <p><b>Autores:</b></p>
@@ -42,4 +46,3 @@
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
 </body>
-

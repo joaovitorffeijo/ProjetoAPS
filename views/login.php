@@ -7,20 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cadastro-login.css">
-    <title>Login - APS</title>
+    <title>Login</title>
 </head>
 
 <body>
-    <header>
-        <img src="" alt="logo" class="logo">
-        <nav class="menu-nav">
-            <ul class="navlist">
-                <li><a href="#QUEM SOMOS">Quem Somos</a></li>
-                <li><a href="./colaboradores">Colaboradores</a></li>
-                <li><img src="./img/user-128.png" alt="user"><a href="./login.html">Login |</a><a href="./cadastro.html"> Cadastre-se</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div style="position:sticky; top: 0; margin-bottom: -120px;">
+        <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+    </div>
 
     <div class="cadastro-login">
         <div class="intro">
@@ -35,13 +28,13 @@
                 <label for="senha">Senha</label><br>
                 <input type="password"><br>
                 <p><a href="">Esqueci a senha</a></p>
-                <input type="submit">
+                <input type="submit" class="botao-enviar">
             </form>
         </div>
     </div>
 
-    <footer>
-        <p>© UFRRJ 2022. All Rights Reserved.</p>
-    </footer>
+    <div style="background-color: #521313; bottom: 0;">
+        <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
+    </div>
 </body>
 </html>

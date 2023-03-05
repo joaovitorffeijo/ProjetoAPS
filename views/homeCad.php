@@ -9,12 +9,10 @@
     <link rel="stylesheet" href="./css/home.css">
     <title>Página Inicial</title>
 </head>
-
 <body>
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
-        <iframe  src="header.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+        <iframe  src="header-cad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
-
     <div class="pesquisa">
         <div class="caixa-de-busca">
             <img src="./img/lupa.png" alt="lupa">

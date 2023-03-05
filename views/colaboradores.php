@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/principais.css">
-    <title>Artigos</title>
+    <title>Colaboradores</title>
 </head>
 <body>
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
@@ -18,62 +18,67 @@
             <img src="./img/lupa.png" alt="lupa">
             <input type="text" id="busca" placeholder="Pesquise pelo nome">
         </div>
-        <h1>ENCONTRE O ARTIGO</h1>
-        <div class="filtros">
-        <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2021</p></a>
-            <a><p class="filtro">2020</p></a>
-            <a><p class="filtro">2019</p></a>
-            <a><p class="filtro">2018</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2021</p></a>
-            <a><p class="filtro">2020</p></a>
-            <a><p class="filtro">2019</p></a>
-            <a><p class="filtro">2018</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2021</p></a>
-            <a><p class="filtro">2020</p></a>
-            <a><p class="filtro">2019</p></a>
-            <a><p class="filtro">2018</p></a>
-            <a><p class="filtro">2022</p></a>
-            <a><p class="filtro">2021</p></a>
-            <a><p class="filtro">2020</p></a>
-            <a><p class="filtro">2019</p></a>
-            <a><p class="filtro">2018</p></a>
-            
+        <h1>BUSQUE PELA INICIAL</h1>
+        <div class="filtros-letra">
+            <a><p class="filtro">A</p></a>
+            <a><p class="filtro">B</p></a>
+            <a><p class="filtro">C</p></a>
+            <a><p class="filtro">D</p></a>
+            <a><p class="filtro">E</p></a>
+            <a><p class="filtro">F</p></a>
+            <a><p class="filtro">G</p></a>
+            <a><p class="filtro">H</p></a>
+            <a><p class="filtro">I</p></a>
+            <a><p class="filtro">J</p></a>
+            <a><p class="filtro">K</p></a>
+            <a><p class="filtro">L</p></a>
+            <a><p class="filtro">M</p></a>
+            <a><p class="filtro">N</p></a>
+            <a><p class="filtro">O</p></a>
+            <a><p class="filtro">P</p></a>
+            <a><p class="filtro">Q</p></a>
+            <a><p class="filtro">R</p></a>
+            <a><p class="filtro">S</p></a>
+            <a><p class="filtro">T</p></a>
+            <a><p class="filtro">U</p></a>
+            <a><p class="filtro">V</p></a>
+            <a><p class="filtro">W</p></a>
+            <a><p class="filtro">X</p></a>
+            <a><p class="filtro">Y</p></a>
+            <a><p class="filtro">Z</p></a>
         </div>
     </div>
 
     <div class="box-filtro">
         <div class="titulo-filtro">
-            <H3>Filtro de pesquisa '2022'</H3>
+            <H3>Filtro de pesquisa 'P'</H3>
         </div>
         <div class="lista-filtro">
             <div class="lista">
             </div>
             <div class="lista">
-                <h3>Artigo 1</h3>
+                <h3>Pessoa 1</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 2</h3>
+                <h3>Pessoa 2</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 3</h3>
+                <h3>Pessoa 3</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 4</h3>
+                <h3>Pessoa 4</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 5</h3>
+                <h3>Pessoa 5</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 6</h3>
+                <h3>Pessoa 6</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 7</h3>
+                <h3>Pessoa 7</h3>
             </div>
             <div class="lista">
-                <h3>Artigo 8</h3>
+                <h3>Pessoa 8</h3>
             </div>
         </div>
         <div class="box-guia">
@@ -94,5 +99,6 @@
     <div style="background-color: #521313; bottom: 0;">
         <iframe  src="footer.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%" height="50"></iframe>
     </div>
+    
 </body>
 </html>
