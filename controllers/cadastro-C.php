@@ -31,5 +31,6 @@ if ($nome != ""
     $usuario = new Usuario();
     $usuario->cadastroUsuario($nome, $sexo, $email, $senha, $tel, $lattes, $formacao);
     echo "Cadastrado com sucesso!";
+    unset($usuario);
 }
 ?>

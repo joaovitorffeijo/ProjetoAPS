@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<?php include("../model/Cadastrador.php"); ?>
+<?php 
+include("../model/Cadastrador.php"); 
+?>
+
 
 <head>
     <meta charset="UTF-8">
