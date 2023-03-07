@@ -11,8 +11,9 @@ class Artigo{
     private $id_evento;
     private $id_trilha;
     private $cadastrado_por;
+    private $artigos;
 
-    public function __construct ($id, $titulo, $abnt, $abstract, $resumo, $pdf, $ref_bibliograficas, $data_de_publicacao, $id_evento, $id_trilha, $cadastrado_por)
+    public function __construct ($id, $titulo, $abnt, $abstract, $resumo, $pdf, $ref_bibliograficas, $data_de_publicacao, $id_evento, $id_trilha, $cadastrado_por, $artigos)
     {
         $this->id = $id;
         $this->titulo = $titulo;
@@ -25,6 +26,7 @@ class Artigo{
         $this->id_evento = $id_evento;
         $this->id_trilha = $id_trilha;
         $this->cadastrado_por = $cadastrado_por;
+        $this->artigos = $artigos;
     }
 
     public function getId()
@@ -157,6 +159,11 @@ class Artigo{
         $this->cadastradoPor = $cadastradoPor;
 
         return $this;
+    }
+
+    public function listarArtigos ($artigos) 
+    {
+
     }
 }
 ?>
