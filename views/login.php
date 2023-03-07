@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<?php include("../controllers/login-C.php"); ?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,11 +24,11 @@
             <p>Não tem uma conta? Faça seu <a href="./cadastro.html">cadastro</a></p>
         </div>
         <div class="cadastro-box">
-            <form action="">
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
                 <label for="email">E-mail</label><br>
-                <input type="email"><br>
+                <input type="email" name="email" id="email"><br>
                 <label for="senha">Senha</label><br>
-                <input type="password"><br>
+                <input type="password" name="senha" id="senha"><br>
                 <p><a href="">Esqueci a senha</a></p>
                 <input type="submit" class="botao-enviar">
             </form>
