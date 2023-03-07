@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="botao-adicionar">
-            <a href="./cadastroArtigos.php"><button>Adiconar novo artigo<img src="./img/plus.png" alt="adicionar"></button></a>
+            <a href="./cadastroArtigos.php"><button >Adiconar novo artigo<img src="./img/plus.png" alt="adicionar"></button></a>
         </div>
         <div class="artigos">
             <div class="artigo-escrito">

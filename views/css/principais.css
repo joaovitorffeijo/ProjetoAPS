@@ -1,4 +1,4 @@
-/*PESQUISA*/
+/* PESQUISA */
 
 .pesquisa {
     background-color: #521313;
@@ -153,58 +153,66 @@
 
 /*~~~~ Páginas de usuário cad ~~~~*/
 
-/* CSS GERAL */
+/* ~~~~BOTÃO CRIAR~~~~ */
 
-.box-botao {
-    margin-top: 25px;
+.criar {
     display: flex;
     justify-content: center;
 }
 
-.box-botao h2{
-    font-size: 15px;
-}
-
-/* BOTÃO CRIAR */
-
-.criar {
-    width: 150px;
-    height: 36px;
-    background: #521313;
+.criar button {
     color: #fff;
-    font-size: small;
-    display: flex;
-    padding: 0 13px;
+    background-color: #521313;
+    border: none;
     border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 50px;
+
 }
 
-.criar img {
-    margin-bottom: 4px;
-    height: 15px;
-    margin-right: -5px;
+.criar button:hover {
+    background-color: #6b1d1d;
+    cursor: pointer;
 }
 
-/* BOTÃO ADICIONAR */
+.criar button img {
+    width: 20px;
+}
+
+.criar a {
+    text-decoration: none;
+}
+/* ~~~~BOTÃO ADICIONAR~~~~ */
 
 .adicionar {
-    width: 180px;
-    height: 36px;
-    background: #521313;
-    color: #fff;
-    font-size: small;
     display: flex;
-    padding: 0 15px;
+    justify-content: center;
+}
+.adicionar button {
+    color: #fff;
+    background-color: #521313;
+    border: none;
     border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 50px;
 }
 
-.adicionar img {
-    margin-bottom: 4px;
-    height: 15px;
-    margin-right: -8px;
+.adicionar button:hover {
+    background-color: #6b1d1d;
+    cursor: pointer;
 }
 
+.adicionar button img {
+    width: 20px;
+}
+
+.adicionar a {
+    text-decoration: none;
+}
 
