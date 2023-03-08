@@ -48,6 +48,7 @@
             <table>
             <?php
                 include('../controllers/connect.php');
+                $id = $_SESSION['id'];
                 $result_evento = "SELECT nome FROM evento WHERE cadastrado_por = '$id'";
                 $result_evento = mysqli_query($conn, $result_evento);
 

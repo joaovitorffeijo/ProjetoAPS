@@ -83,7 +83,7 @@ class Cadastrador extends Usuario{
             }
         }
 
-        if (!$result_colaborador) {
+        if (!$result_evento) {
             echo "Erro na consulta: ". mysqli_error($conn);
         }
 
