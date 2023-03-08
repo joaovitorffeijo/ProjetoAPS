@@ -26,9 +26,21 @@
                 <label for="nome">Nome do evento</label><br>
                 <input type="text" id="nome"><br>
                 <label for="pessoa">Vincular Pessoa</label><br>
-                <multiselect name="pessoa" id="pessoa" size="">
-                    <option></option>
-                </select><br>
+                <select name="colaboradores" class="colaboradores" multiple size="4">
+                    <?php
+                        include('../controllers/connect.php');
+                        $result_colaborador = "SELECT id, nome FROM colaborador";
+                        $result_colaborador = mysqli_query($conn, $result_colaborador);
+
+                        while ($row = mysqli_fetch_array($result_colaborador))  { 
+                            $id = $row['id'];
+                            $nome = $row['nome'];
+
+                            echo "<option value='$id'> $nome <option>";
+                        }
+                    ?>
+                </select> <br>
+                <button class="colabButton"><a href="./cadastroColaboradores.php">Adicionar colaborador</a></button><br>
                 <label for="data">Data</label><br>
                 <input type="date" id="data"><br>
                 <label for="pin">PIN do evento</label><br>
