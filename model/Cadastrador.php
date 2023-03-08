@@ -16,11 +16,12 @@ class Cadastrador extends Usuario{
     private $lattes;
     private $formacao;
 
-    function iniciarSession($usuario_result, $nome, $email, $sexo, $telefone, $lattes, $formacao) 
+    function iniciarSession($usuario_result, $id, $nome, $email, $sexo, $telefone, $lattes, $formacao) 
     {
         if(!isset($_SESSION)) 
         {
             session_start();
+            $_SESSION['id'] = $id;
             $_SESSION['nome'] = $nome;
             $_SESSION['email'] = $email;
             $_SESSION['sexo'] = $sexo;

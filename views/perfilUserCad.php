@@ -46,23 +46,17 @@
         <h1>EVENTOS CADASTRADOS</h1>
         <div class="tabela-eventos">
             <table>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 1</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 2</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 3</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 4</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 5</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 6</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 7</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Evento 8</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
+            <?php
+                include('../controllers/connect.php');
+                $result_evento = "SELECT nome FROM evento WHERE cadastrado_por = '$id'";
+                $result_evento = mysqli_query($conn, $result_evento);
+
+                while ($row = mysqli_fetch_array($result_evento))  { 
+                    $nome = $row['nome'];
+                    echo "<tr><td><hr color='#521313' size=1></td></tr>";
+                    echo "<tr><td><a href='./paginaEventoCad.php'><b>" . $row["nome"] . "</b></a></td></tr>";
+                }
+            ?>
             </table>
         </div>
         <div class="pagina-lista">

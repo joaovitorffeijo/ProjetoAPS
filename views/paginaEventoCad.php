@@ -48,37 +48,37 @@
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
             <div class="artigo-escrito">
                 <h3>Título do artigo</h3>
                 <p><b>Autor:</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigo-cad.php">Leia mais</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque dignissim, pharetra enim eget...<a href="./paginaArtigoCad.php">Leia mais</a></p>
             </div>
         </div>
     </div>

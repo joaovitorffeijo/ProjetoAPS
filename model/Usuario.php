@@ -32,6 +32,7 @@ class Usuario{
 
         $row = mysqli_fetch_assoc($usuario_result);
         $senha_tab = $row['senha'];
+        $id = $row['id'];
         $nome = $row['nome'];
         $email = $row['email'];
         $sexo = $row['sexo'];
@@ -43,7 +44,7 @@ class Usuario{
 
         if($senha == $senha_tab) {
             $cadastrador = new Cadastrador();
-            $cadastrador->iniciarSession ($usuario_result, $nome, $email, $sexo, $telefone, $lattes, $formacao);
+            $cadastrador->iniciarSession ($usuario_result, $id, $nome, $email, $sexo, $telefone, $lattes, $formacao);
         }
         else {
             echo 'Senha Inválida';

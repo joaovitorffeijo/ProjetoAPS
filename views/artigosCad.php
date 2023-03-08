@@ -44,51 +44,32 @@
         </div>
     </div>
 
-    <div class="box-filtro">
-        <div class="titulo-filtro">
-            <H3>Filtro de pesquisa '2022'</H3>
+    <div class="eventosColaborador">
+        <div class="tabela-eventos">
+            <table>
+            <?php
+                include('../controllers/connect.php');
+                $result_artigo = "SELECT id, titulo FROM artigo";
+                $result_artigo = mysqli_query($conn, $result_artigo);
+
+                while ($row = mysqli_fetch_array($result_artigo))  { 
+                    $id = $row['id'];
+                    $titulo = $row['titulo'];
+                    echo "<tr><td><hr color='#521313' size=1></td></tr>";
+                    echo "<tr><td><a href='./'><b>" . $row["titulo"] . "</b></a></td></tr>";
+                }
+            ?>
+            </table>
         </div>
-        <div class="lista-filtro">
-            <div class="lista">
-            </div>
-            <div class="lista">
-                <h3>Artigo 1</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 2</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 3</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 4</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 5</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 6</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 7</h3>
-            </div>
-            <div class="lista">
-                <h3>Artigo 8</h3>
-            </div>
-        </div>
-        <div class="box-guia">
+        <div class="pagina-lista">
             <p class="guia">Voltar</p>
-            <div class="box-pagina">
-                <p class="numero-pagina">1</p>
-                <p class="numero-pagina">2</p>
-                <p class="numero-pagina">3</p>
-                <p class="numero-pagina">4</p>
-                <p class="numero-pagina">5</p>
-            </div>
-            <p class="guia">Próxima pagina</p>
+            <p class="numero-pagina">1</p>
+            <p class="numero-pagina">2</p>
+            <p class="numero-pagina">3</p>
+            <p class="numero-pagina">4</p>
+            <p class="numero-pagina">5</p>
+            <p class="guia">Próxima</p>
         </div>
-
-
     </div>
 
     <div style="background-color: #521313; bottom: 0;">

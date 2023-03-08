@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/principais.css">
-    <link rel="stylesheet" href="./css/pag.css">
     <title>Colaboradores</title>
 </head>
 <body>
@@ -53,24 +52,20 @@
     <div class="eventosColaborador">
         <div class="tabela-eventos">
             <table>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
-                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
-                <tr><td><hr color="#521313" size=1></td></tr>
+            <?php
+                include('../controllers/connect.php');
+                $result_colaborador = "SELECT id, nome FROM colaborador";
+                $result_colaborador = mysqli_query($conn, $result_colaborador);
+
+                while ($row = mysqli_fetch_array($result_colaborador))  { 
+                    $id = $row['id'];
+                    $nome = $row['nome'];
+                    echo "<tr><td><hr color='#521313' size=1></td></tr>";
+                    echo "<tr><td><a href='./'><b>" . $row["nome"] . "</b></a></td></tr>";
+                }
+            ?>
             </table>
+        
         </div>
         <div class="pagina-lista">
             <p class="guia">Voltar</p>
