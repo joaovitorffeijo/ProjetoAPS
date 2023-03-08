@@ -7,6 +7,10 @@
     <title>Gerenciar evento</title>
 </head>
 
+<?php
+    include('../controllers/loginEvento-C.php');
+?>
+
 <body>
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
         <iframe  src="headerCad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
@@ -19,10 +23,10 @@
             <p>Não tem o PIN de acesso desse evento? <a href="">Crie seu próprio evento.</a></p>
         </div>
         <div class="cadastro-box">
-            <form action="">
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
                 <h3 class="nomeEvento">Nome do evento</h3><br>
                 <label for="pin">PIN do evento</label><br>
-                <input type="password" id="pin"><br>
+                <input type="password" id="pin" name="pin"><br>
                 <input type="submit" class="botao-enviar">
             </form>
         </div>

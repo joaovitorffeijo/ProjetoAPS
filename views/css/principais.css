@@ -70,15 +70,11 @@
 }
 
 
-
 .icones {
-    display: flex;
-    gap: 10px;
-}
-
-.icones img {
     height: 18px;
     width: auto;
+    float: right;
+    margin-right: 15px;
 }
 
 /*Guia*/
