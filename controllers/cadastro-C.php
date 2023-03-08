@@ -22,12 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 if ($nome != "" 
-&& $sexo != "" 
-&& $email != "" 
-&& $senha != ""
-&& $tel != "" 
-&& $lattes != "" 
-&& $formacao != "") {
+    && $sexo != "" 
+    && $email != "" 
+    && $senha != ""
+    && $tel != "" 
+    && $lattes != "" 
+    && $formacao != "") {
     $usuario = new Usuario();
     $usuario->cadastroUsuario($nome, $sexo, $email, $senha, $tel, $lattes, $formacao);
     echo "Cadastrado com sucesso!";

@@ -7,9 +7,11 @@
     <title>Cadastrar colaborador</title>
 </head>
 
+<?php include("../controllers/cadastroColaboradores-C.php"); ?>
+
 <body>
     <div style="position:sticky; top: 0; margin-bottom: -120px;">
-        <iframe  src="headeCad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
+        <iframe  src="headerCad.php" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" width="100%"></iframe>
     </div>
 
     <div class="cadastro-login">
@@ -18,19 +20,19 @@
             <p>Registre os colaboradores do seu evento para vinculá-los.</p>
         </div>
         <div class="cadastro-box">
-            <form action="">
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                 <label for="nome">Nome completo</label><br>
-                <input type="text" id="nome"><br>
-                <label for="formacao">Formação</label><br>
-                <input type="text" id="formacao"><br>
+                <input name="nome" type="text" id="nome"><br>
+                <label for="instituicao">Instituição</label><br>
+                <input name="instituicao" type="text" id="instituicao"><br>
                 <label for="sexo">Sexo</label><br>
                 <select name="sexo" id="sexo" size="2">
                     <option value="F">Feminino</option>
                     <option value="M">Masculino</option>
                 </select><br>
                 <label for="lattes">Link do lattes</label><br>
-                <input type="text" id="lattes"><br>
-                <input type="submit" class="botao-enviar">
+                <input name="lattes" type="text" id="lattes"><br>
+                <input name="botao-enviar" type="submit" class="botao-enviar">
             </form>
         </div>
     </div>
