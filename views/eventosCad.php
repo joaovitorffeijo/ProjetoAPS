@@ -60,7 +60,7 @@
                     $id = $row['id'];
                     $nome = $row['nome'];
                     echo "<tr><td><hr color='#521313' size=1></td></tr>";
-                    echo "<tr><td><a href='./paginaEventoCad.php'><b>" . $row["nome"] . "</b></a></td></tr>";
+                    echo "<tr><td><a href='./paginaEvento.php'><b>" . $row["nome"] . "<a href='./loginEvento.php'><img src='./img/edit.png' class='icones'></a>" . "</b></a></td></tr>";
                 }
             ?>
             </table>
