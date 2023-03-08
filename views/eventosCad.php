@@ -45,7 +45,7 @@
     </div>
 
     <div class="criar">
-        <a href="./cadastroEventos.php"><button>Adiconar novo artigo<img src="./img/plus.png" alt="adicionar"></button></a>
+        <a href="./cadastroEventos.php"><button>Cadastrar novo evento<img src="./img/plus.png" alt="adicionar"></button></a>
     </div>
 
     <div class="box-filtro">
