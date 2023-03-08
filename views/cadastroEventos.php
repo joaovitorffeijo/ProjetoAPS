@@ -40,7 +40,7 @@ include('../controllers/cadastroEvento-C.php');
                             $id = $row['id'];
                             $nome = $row['nome'];
                             if (is_string($id) && $nome != "") {
-                                echo "<option value='$id'> $nome </option>";
+                                echo "<option value='$nome'> $nome </option>";
                             }
                         }
                     ?>
@@ -66,7 +66,7 @@ include('../controllers/cadastroEvento-C.php');
                         while ($row = mysqli_fetch_array($result_trilhas))  { 
                             $id = $row['id_trilha'];
                             $nome = $row['nome'];
-                            if (is_string($id) && $nome != "") {
+                            if (is_string($nome) && $nome != "") {
                                 echo "<option value='$id'> $nome </option>";
                             }
                         }

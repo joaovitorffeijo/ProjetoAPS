@@ -5,11 +5,12 @@ include('../model/Cadastrador.php');
 function input_data($data) {  
     $data = trim($data);  
     $data = stripslashes($data);  
+    $data = strip_tags($data, '<option>');  
     $data = htmlspecialchars($data);  
     return $data;  
 }
 
-$nome = $colaboradores = $data = $pin = $confirma = $tipo = $trilhas = $descricao = $link = "";
+$nome = $colaboradores = $data = $pin = $confirma = $tipo = $descricao = $link = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nome = input_data($_POST["nome"]);

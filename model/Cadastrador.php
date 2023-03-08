@@ -71,7 +71,7 @@ class Cadastrador extends Usuario{
             if (!$result_trilha) {
                 echo "Erro na consulta: ". mysqli_error($conn);
             }
-        }
+        } // Problema na inclusão de trilhas.
 
         foreach ($colaboradores as $id_colaborador) {
             $result_colaborador = "INSERT INTO organizouEvento (id_colaborador, id_evento)
@@ -81,7 +81,7 @@ class Cadastrador extends Usuario{
             if (!$result_colaborador) {
                 echo "Erro na consulta: ". mysqli_error($conn);
             }
-        }
+        } // Problema na inclusão de colaboradores.
 
         if (!$result_evento) {
             echo "Erro na consulta: ". mysqli_error($conn);
