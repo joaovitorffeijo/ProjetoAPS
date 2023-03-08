@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/principais.css">
+    <link rel="stylesheet" href="./css/pag.css">
     <title>Colaboradores</title>
 </head>
 
@@ -52,76 +53,39 @@
     </div>
     
     <div class="adicionar">
-        <a href="#"><button >Adiconar<img src="./img/plus.png" alt="adicionar"></button></a>
+        <a href="#"><button >Adiconar novo colaborador<img src="./img/plus.png" alt="adicionar"></button></a>
     </div>
 
-    <div class="box-filtro">
-        <div class="titulo-filtro">
-            <H3>Filtro de pesquisa 'P'</H3>
+    <div class="eventosColaborador">
+        <div class="tabela-eventos">
+            <table>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+                <tr><td><a href="./paginaEvento-cad.php"><b>Pessoa</b></a></td></tr>
+                <tr><td><hr color="#521313" size=1></td></tr>
+            </table>
         </div>
-        <div class="lista-filtro">
-            <div class="lista">
-            </div>
-            <div class="lista">
-                <h3>Pessoa 1</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 2</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 3</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 4</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 5</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 6</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                    
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 7</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-            <div class="lista">
-                <h3>Pessoa 8</h3>
-                <div class="icones">
-                    <img src="./img/edit.png" alt="adicionar">
-                </div>
-            </div>
-        </div>
-        <div class="box-guia">
+        <div class="pagina-lista">
             <p class="guia">Voltar</p>
-            <div class="box-pagina">
-                <p class="numero-pagina">1</p>
-                <p class="numero-pagina">2</p>
-                <p class="numero-pagina">3</p>
-                <p class="numero-pagina">4</p>
-                <p class="numero-pagina">5</p>
-            </div>
-            <p class="guia">Próxima pagina</p>
+            <p class="numero-pagina">1</p>
+            <p class="numero-pagina">2</p>
+            <p class="numero-pagina">3</p>
+            <p class="numero-pagina">4</p>
+            <p class="numero-pagina">5</p>
+            <p class="guia">Próxima</p>
         </div>
     </div>
 
